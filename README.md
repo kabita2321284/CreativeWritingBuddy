@@ -11,4 +11,6 @@ The narration style changes based on the selected tone (speed, pitch, volume) an
 - report/ : Project report (add your report here)
 ```bash
 pip install -r requirements.txt
-python src/app.py
+cd src
+streamlit run app.py
+
